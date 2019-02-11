@@ -21,7 +21,7 @@ with pseudocode, the pseudocode can be translated directly to actual code.
 
 
 ## Here is an example of how you might write pseudocode for the pay calculating
-program that we discussed earlier:
+## program that we discussed earlier:
 ```
 Display "Enter the number of hours the employee worked."
 Input hours
@@ -41,9 +41,9 @@ an algorithm, without worrying about syntax rules. If you mistakenly write
 pseudocode into an editor for an actual programming language, such as Python or
 C, Java, or Visual Basic, errors will result.
 
-##PseudoCode Practice Labs:
+## PseudoCode Practice Labs:
 
-##1 Calculating Cell Phone Overage Fees
+## 1 Calculating Cell Phone Overage Fees
 Suppose your cell phone calling plan allows you to use 700 minutes per month. If you
 use more than this limit in a month, you are charged an overage fee of 35 cents for each
 excess minute. Your phone shows you the number of excess minutes that you have
@@ -56,7 +56,7 @@ First, you want to make sure that you understand the steps that the program must
 It will be helpful if you closely look at the way you’ve been solving this problem,
 using only paper and pencil, or calculator.
 
-##2 Calculating a Percentage
+## 2 Calculating a Percentage
 Determining percentages is a common calculation in computer programming. In
 mathematics, the % symbol is used to indicate a percentage, but most programming
 languages don’t use the % symbol for this purpose. In a program, you usually have to
@@ -68,7 +68,7 @@ a retail business is planning to have a storewide sale where the prices of all i
 will be 20 percent off. We have been asked to write a program to calculate the sale
 price of an item after the discount is subtracted.
 
-##3 Calculating an Average
+## 3 Calculating an Average
 
 Determining the average of a group of values is a simple calculation: You add all of the
 values and then divide the sum by the number of values. Although this is a straightforward
@@ -90,7 +90,7 @@ Let’s step through the process of writing a program that calculates an average
 you have taken three tests in your computer science class, and you want to write a program
 that will display the average of the test scores.
 
-##4 Converting a Math Formula to a programming Statement
+## 4 Converting a Math Formula to a programming Statement
 
 Suppose you want to deposit a certain amount of money into a savings account, and
 then leave it alone to draw interest for the next 10 years. At the end of 10 years you
