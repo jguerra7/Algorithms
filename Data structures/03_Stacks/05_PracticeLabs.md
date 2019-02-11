@@ -1,4 +1,4 @@
-# Demonstration Labs continued:
+# Practice Labs :
 ## Write a program that inputs a line of text and uses a stack to print the line reversed.
   ### Expected Output:
   ```
