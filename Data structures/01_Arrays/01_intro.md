@@ -29,23 +29,24 @@ Index − Each location of an element in an array has a numerical index, which i
 
 ## Array Representation
 Arrays can be declared in various ways in different languages. For illustration, let's take C array declaration.
-![Image of array](https://www.tutorialspoint.com/data_structures_algorithms/images/array_declaration.jpg)
+![arrayrep1](https://user-images.githubusercontent.com/47218880/52573392-a9b9e500-2ddf-11e9-8122-95c96383b7fa.png)
 
 ## Array Declaration
 Arrays can be declared in various ways in different languages. For illustration, let's take C array declaration.
+![arrayrep2](https://user-images.githubusercontent.com/47218880/52573446-ca823a80-2ddf-11e9-8d96-4e08436b8875.png)
 
 ## Array Representation
 As per the above illustration, following are the important points to be considered.
-
+```
 Index starts with 0.
 
 Array length is 10 which means it can store 10 elements.
 
 Each element can be accessed via its index. For example, we can fetch an element at index 6 as 9.
-
-Basic Operations
+```
+## Basic Operations
 Following are the basic operations supported by an array.
-
+```
 Traverse − print all the array elements one by one.
 
 Insertion − Adds an element at the given index.
@@ -55,30 +56,25 @@ Deletion − Deletes an element at the given index.
 Search − Searches an element using the given index or by the value.
 
 Update − Updates an element at the given index.
-
+```
 In C, when an array is initialized with size, then it assigns defaults values to its elements in following order.
 
-Data Type	Default Value
-bool	false
-char	0
-int	0
-float	0.0
-double	0.0f
-void	
-wchar_t	0
-Insertion Operation
+![basicOps1](https://user-images.githubusercontent.com/47218880/52573483-e2f25500-2ddf-11e9-88c4-188bdb099b77.png)
+
+## Insertion Operation
 Insert operation is to insert one or more data elements into an array. Based on the requirement, a new element can be added at the beginning, end, or any given index of array.
 
 Here, we see a practical implementation of insertion operation, where we add data at the end of the array −
 
-Algorithm
+### Algorithm
+
 Let Array be a linear unordered array of MAX elements.
 
-Example
+### Example
 Result
 
 Let LA be a Linear Array (unordered) with N elements and K is a positive integer such that K<=N. Following is the algorithm where ITEM is inserted into the Kth position of LA −
-
+```
 1. Start
 2. Set J = N
 3. Set N = N+1
@@ -87,9 +83,10 @@ Let LA be a Linear Array (unordered) with N elements and K is a positive integer
 6. Set J = J-1
 7. Set LA[K] = ITEM
 8. Stop
-Example
+```
+### Example
 Following is the implementation of the above algorithm −
-
+```C
 #include <stdio.h>
 
 main() {
@@ -118,9 +115,11 @@ main() {
       printf("LA[%d] = %d \n", i, LA[i]);
    }
 }
+```
 When we compile and execute the above program, it produces the following result −
 
-Output
+### Output
+```
 The original array elements are :
 LA[0] = 1 
 LA[1] = 3 
@@ -134,14 +133,15 @@ LA[2] = 5
 LA[3] = 10 
 LA[4] = 7 
 LA[5] = 8 
+```
 For other variations of array insertion operation click here
 
-Deletion Operation
+## Deletion Operation
 Deletion refers to removing an existing element from the array and re-organizing all elements of an array.
 
-Algorithm
+### Algorithm
 Consider LA is a linear array with N elements and K is a positive integer such that K<=N. Following is the algorithm to delete an element available at the Kth position of LA.
-
+```
 1. Start
 2. Set J = K
 3. Repeat steps 4 and 5 while J < N
@@ -149,9 +149,10 @@ Consider LA is a linear array with N elements and K is a positive integer such t
 5. Set J = J+1
 6. Set N = N-1
 7. Stop
-Example
+```
+### Example
 Following is the implementation of the above algorithm −
-
+```C
 #include <stdio.h>
 
 void main() {
@@ -180,9 +181,11 @@ void main() {
       printf("LA[%d] = %d \n", i, LA[i]);
    }
 }
+```
 When we compile and execute the above program, it produces the following result −
 
-Output
+### Output
+```
 The original array elements are :
 LA[0] = 1 
 LA[1] = 3 
@@ -194,12 +197,13 @@ LA[0] = 1
 LA[1] = 3 
 LA[2] = 7 
 LA[3] = 8 
-Search Operation
+```
+## Search Operation
 You can perform a search for an array element based on its value or its index.
 
-Algorithm
+### Algorithm
 Consider LA is a linear array with N elements and K is a positive integer such that K<=N. Following is the algorithm to find an element with a value of ITEM using sequential search.
-
+```
 1. Start
 2. Set J = 0
 3. Repeat steps 4 and 5 while J < N
@@ -207,9 +211,10 @@ Consider LA is a linear array with N elements and K is a positive integer such t
 5. Set J = J +1
 6. PRINT J, ITEM
 7. Stop
-Example
+```
+### Example
 Following is the implementation of the above algorithm −
-
+```C
 #include <stdio.h>
 
 void main() {
@@ -233,9 +238,11 @@ void main() {
 	
    printf("Found element %d at position %d\n", item, j+1);
 }
+```
 When we compile and execute the above program, it produces the following result −
 
-Output
+### Output
+```
 The original array elements are :
 LA[0] = 1 
 LA[1] = 3 
@@ -243,18 +250,20 @@ LA[2] = 5
 LA[3] = 7 
 LA[4] = 8 
 Found element 5 at position 3
-Update Operation
+```
+### Update Operation
 Update operation refers to updating an existing element from the array at a given index.
 
 Algorithm
 Consider LA is a linear array with N elements and K is a positive integer such that K<=N. Following is the algorithm to update an element available at the Kth position of LA.
-
+```
 1. Start
 2. Set LA[K-1] = ITEM
 3. Stop
-Example
+```
+### Example
 Following is the implementation of the above algorithm −
-
+```C
 #include <stdio.h>
 
 void main() {
@@ -276,9 +285,11 @@ void main() {
       printf("LA[%d] = %d \n", i, LA[i]);
    }
 }
+```
 When we compile and execute the above program, it produces the following result −
 
-Output
+### Output
+```
 The original array elements are :
 LA[0] = 1 
 LA[1] = 3 
@@ -291,3 +302,4 @@ LA[1] = 3
 LA[2] = 10 
 LA[3] = 7 
 LA[4] = 8 
+```
