@@ -13,7 +13,7 @@ Element[7] = 107
 Element[8] = 108
 Element[9] = 109
 ```
-## 2) Write a program to find the avg. of ```C n (n < 10)``` numbers using arrays.
+## 2) Write a program to find the avg. of ``` n (n < 10)``` numbers using arrays.
 
 ### Output
 ```
