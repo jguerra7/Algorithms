@@ -39,3 +39,28 @@ increased processor speed.”
 (Excerpt from Report to the President and Congress: Designing a Digital
 Future, December 2010 (page 71).
 ```
+
+## Example of an Algorithm?
+Let us consider the problem of preparing an omelette. To prepare an omelette, we follow the steps given below:
+```
+1) Get the frying pan.
+2) Get the oil.
+	a. Do we have oil?
+		i. If yes, put it in the pan.
+		ii. If no, do we want to buy oil?
+			1. If yes, then go out and buy.
+			2. If no, we can terminate.
+3) Turn on the stove, etc...
+```
+
+What we are doing is, for a given problem (preparing an omelette), we are providing a step-bystep
+procedure for solving it. The formal definition of an algorithm can be stated as:
+
+An algorithm is the step-by-step unambiguous instructions to solve a given problem.
+
+> In the traditional study of algorithms, there are two main criteria for judging the merits of
+algorithms: correctness (does the algorithm give solution to the problem in a finite number of
+steps?) and efficiency (how much resources (in terms of memory and time) does it take to execute
+the).
+
+
