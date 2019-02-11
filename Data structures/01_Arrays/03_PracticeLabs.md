@@ -1,6 +1,6 @@
 # Practice labs in ARRAYS
 
-## Write a program in C to store elements in an array and print it. Go to the editor
+## Write a program in C to store elements in an array and print it. 
 ### Test Data : 
 ```
 Input 10 elements in the array : 
@@ -14,7 +14,7 @@ element - 2 : 2
 Elements in array are: 1 1 2 3 4 5 6 7 8 9 
 ```
 
-## Write a program in C for a 2D array of size 3x3 and print the matrix. Go to the editor
+## Write a program in C for a 2D array of size 3x3 and print the matrix. 
 ### Test Data : 
 ```
 Input elements in the matrix : 
