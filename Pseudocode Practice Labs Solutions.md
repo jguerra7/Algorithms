@@ -1,11 +1,11 @@
-PseudoCode Practice Labs Solutions:
+# PseudoCode Practice Labs Solutions:
 
 ## 1 Calculating Phone Overage fees Algorithm (Using pencil and paper, or calculator)
-
+```
 1. You get the number of excess minutes that you have used.
 2. You multiply the number of excess minutes by 0.35.
 3. The result of the calculation is your current overage fee.
-
+```
 Ask yourself the following questions about this algorithm:
 
 Question: What input do I need to perform this algorithm?
@@ -68,13 +68,13 @@ Enter the number of excess minutes.
 Your current overage fee is $35
 
 
-#2 Here is the algorithm for Calculating a Percentage:
-
+## 2 Here is the algorithm for Calculating a Percentage:
+```
 1. Get the original price of the item.
 2. Calculate 20 percent of the original price. This is the amount of the discount.
 3. Subtract the discount from the original price. This is the sale price.
 4. Display the sale price.
-
+```
 In Step 1 we get the original price of the item. We will prompt the user to enter this
 data on the keyboard. Recall from the previous section that prompting the user is a
 two-step process: (1) display a message telling the user to enter the desired data, and
@@ -108,15 +108,15 @@ The following shows the entire pseudocode program, with example output.
 4 Set salePrice = originalPrice – discount
 5 Display "The sale price is $", salePrice
 
-#3 Calculating an Average
+## 3 Calculating an Average
 Here is the algorithm:
-
+```
 1. Get the first test score.
 2. Get the second test score.
 3. Get the third test score.
 4. Calculate the average by adding the three test scores and dividing the sum by 3.
 5. Display the average.
-
+```
 In Steps 1, 2, and 3 we will prompt the user to enter the three test scores. We will store
 those test scores in the variables test1, test 2, and test 3. In Step 4 we will calculate
 the average of the three test scores. We will use the following statement to perform the
@@ -146,15 +146,15 @@ Enter the third test score.
 100 [Enter]
 The average score is 90
 
-#4 Converting a Math Formula to a Programming Statement
+## 4 Converting a Math Formula to a Programming Statement
 Here is the Algorithm:
-
+```
 1. Get the desired future value.
 2. Get the annual interest rate.
 3. Get the number of years that the money will sit in the account.
 4. Calculate the amount that will have to be deposited.
 5. Display the result of the calculation in Step 4.
-
+```
 In Steps 1 through 3, we will prompt the user to enter the specified values. We will
 store the desired future value in a variable named futureValue, the annual interest
 rate in a variable named rate, and the number of years in a variable named years.
