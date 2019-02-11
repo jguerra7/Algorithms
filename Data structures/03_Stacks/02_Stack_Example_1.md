@@ -1,4 +1,4 @@
-# STACK PROGRAMMING EXAMPLES
+# STACK PROGRAMMING EXAMPLE
 ## C Program to Implement a Stack
 
 ### Problem Description
