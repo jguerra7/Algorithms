@@ -9,9 +9,9 @@ the value of these variables, we need 20 write statements. If it is just a matte
 it might be acceptable for the user to follow this approach. But would it be possible to follow this
 approach if we have to read and print the marks of students,
 ```
-Σ in the entire course (say 100 students)
-Σ in the entire college (say 500 students)
-Σ in the entire university (say 10,000 students)
+in the entire course (say 100 students)
+in the entire college (say 500 students)
+in the entire university (say 10,000 students)
 ```
 >The answer is no, definitely not! To process a large amount of data, we need a data structure
 known as array.
