@@ -15,7 +15,7 @@ Input data for node 3 : 7
  Data = 6                                                                                                     
  Data = 7 
  ```
- ## 2). Write a program in C to create a singly linked list of n nodes and count the number of nodes. Go to the editor
+ ## 2). Write a program in C to create a singly linked list of n nodes and count the number of nodes.
 
 ### Test Data : 
 ```
@@ -33,7 +33,7 @@ Input data for node 3 : 7
                                                                                                               
  Total number of nodes = 3  
  ```
- ## 3).Write a program in C to insert a new node at the beginning of a Singly Linked List. Go to the editor
+ ## 3).Write a program in C to insert a new node at the beginning of a Singly Linked List. 
 
 ### Test Data and Expected Output :
 ```
