@@ -123,18 +123,23 @@ We need to use the deleted node. We can keep that in memory otherwise we can sim
 
 ## Reverse Operation
 This operation is a thorough one. We need to make the last node to be pointed by the head node and reverse the whole linked list.
+![image](https://user-images.githubusercontent.com/47218880/52579378-a62c5b00-2deb-11e9-9325-612eb8f24c4d.png)
 
 
 First, we traverse to the end of the list. It should be pointing to NULL. Now, we shall make it point to its previous node −
+![image](https://user-images.githubusercontent.com/47218880/52579419-b9d7c180-2deb-11e9-9686-1151369b7fbb.png)
 
 
 We have to make sure that the last node is not the lost node. So we'll have some temp node, which looks like the head node pointing to the last node. Now, we shall make all left side nodes point to their previous nodes one by one.
+![image](https://user-images.githubusercontent.com/47218880/52579459-d2e07280-2deb-11e9-8761-dc3f3b20376a.png)
 
 
 Except the node (first node) pointed by the head node, all nodes should point to their predecessor, making them their new successor. The first node will point to NULL.
+![image](https://user-images.githubusercontent.com/47218880/52579506-e55aac00-2deb-11e9-9a11-d735250c8d47.png)
 
 
 We'll make the head node point to the new first node by using the temp node.
 
+![image](https://user-images.githubusercontent.com/47218880/52579542-f86d7c00-2deb-11e9-9dea-927e45f5caf7.png)
 
 The linked list is now reversed. To see linked list implementation in C programming language,
