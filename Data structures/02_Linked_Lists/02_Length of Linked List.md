@@ -140,7 +140,7 @@ int main()
     printf("count of nodes is %d", getCount(head)); 
     return 0; 
 } 
-
+```
 ## Output:
 ```
 count of nodes is 5
