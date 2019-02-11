@@ -61,6 +61,6 @@ An algorithm is the step-by-step unambiguous instructions to solve a given probl
 > In the traditional study of algorithms, there are two main criteria for judging the merits of
 algorithms: correctness (does the algorithm give solution to the problem in a finite number of
 steps?) and efficiency (how much resources (in terms of memory and time) does it take to execute
-the).
+it).
 
 
