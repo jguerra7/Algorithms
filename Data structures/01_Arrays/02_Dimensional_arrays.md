@@ -1,8 +1,10 @@
 # ONE DIMENSIONAL ARRAY IN C:
->Syntax : data-type arr_name[array_size];
+```
+Syntax : data-type arr_name[array_size];
+```
 ![onedimarray](https://user-images.githubusercontent.com/47218880/52574520-1cc45b00-2de2-11e9-8d8d-8a9278e4d697.png)
 
-EXAMPLE PROGRAM FOR ONE DIMENSIONAL ARRAY IN C:
+## EXAMPLE PROGRAM FOR ONE DIMENSIONAL ARRAY IN C:
 ```C
 #include<stdio.h> 
  
