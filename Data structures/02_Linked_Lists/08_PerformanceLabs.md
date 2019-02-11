@@ -66,7 +66,7 @@ void main()
     printf("No. of nodes in the list = %d\n", count);
 }
 ```
-OUTPUT: (Using the Linux Terminal)
+## OUTPUT: (Using the Linux Terminal)
 ```
 $ cc pgm98.c
 $ a.out
