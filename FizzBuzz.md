@@ -22,7 +22,7 @@ Fizz Buzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26,
 Fizz, 28, 29, Fizz Buzz, 31, 32, Fizz, 34, Buzz, Fizz, ...
 ```
 
-Why Fizz-Buzz is a "Challenge:"
+## Why Fizz-Buzz is a "Challenge:"
 We can't understand why so many people "fail" the Fizz-Buzz test unless we understand why it is "hard" (for them). Understanding that, 
 we may be able to evaluate the usefulness of this tool, and others, as filtering tools for candidates.
 I think Fizz-Buzz is "hard" for some programmers because (#1) it doesn't fit into any of the patterns that were given to them in school assignments, 
@@ -32,14 +32,14 @@ I think this makes it a good discriminator,
 because I wish to hire candidates who can think for themselves -- not those who are limited to copying solutions from others.
 
 On #2, that it's hard to directly code it: Fizz-Buzz does not fall into the common pattern of
-  if 1 then A
+ > if 1 then A
   else if 2 then B
   else if 3 then C
   else/otherwise D
   
 (Well it does, but not when you consider "1,2 & 3" to be atomic tests, like "is divisible by 3.")
 Consider...
-
+```
   if (theNumber is divisible by 3) then
 	print "Fizz"
   else if (theNumber is divisible by 5) then
@@ -47,10 +47,10 @@ Consider...
   else /* theNumber is not divisible by 3 or 5 */
 	print theNumber
   end if
-  
+  ```
 Now where do you put "FizzBuzz" in this structure?
 Like this...?
-
+```
   if (theNumber is divisible by 3) then	--->
 	if (theNumber is divisible by 5) then
 	print "FizzBuzz"
@@ -61,12 +61,12 @@ Like this...?
   else /* theNumber is not divisible by 3 or 5 */
 	print theNumber
   end if
-  
+ ``` 
 This is an example of an algorithm, which is a set of well-defined logical steps that
 must be taken to perform a task.
 
-Example of the Fizzbuzz in C:
-
+## Example of the Fizzbuzz in C:
+```C
 #include <stdio.h> 
   
 int main(void) 
@@ -97,14 +97,14 @@ int main(void)
   
     return 0; 
 } 
-
+```
   
 A programmer breaks down the task that a program must perform in a similar way.
 An algorithm is created, which lists all of the logical steps that must be taken. 
 For example, suppose you have been asked to write a program to calculate and display the
 gross pay for an hourly paid employee. Here are the steps that you would take:
 
-1. Get the number of hours worked.
+>1. Get the number of hours worked.
 2. Get the hourly pay rate.
 3. Multiply the number of hours worked by the hourly pay rate.
 4. Display the result of the calculation that was performed in Step 3.
