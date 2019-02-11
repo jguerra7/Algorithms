@@ -202,14 +202,14 @@ void displayList()
 
 ![image](https://user-images.githubusercontent.com/47218880/52583658-be08dc80-2df5-11e9-9e78-5ca6bf79d846.png)
 
-createNodeList():
+## createNodeList():
 
 ![image](https://user-images.githubusercontent.com/47218880/52583693-d4af3380-2df5-11e9-87f0-df0cec065e5a.png)
 
-NodeCount():
+## NodeCount():
 ![image](https://user-images.githubusercontent.com/47218880/52583746-fc060080-2df5-11e9-9339-e97c4bf95726.png)
 
-displayList():
+## displayList():
 
 ![image](https://user-images.githubusercontent.com/47218880/52583772-0e803a00-2df6-11e9-98dc-b1a4cfe72d1d.png)
 
