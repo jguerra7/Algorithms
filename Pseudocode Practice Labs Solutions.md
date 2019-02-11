@@ -33,12 +33,12 @@ things: (1) it displays a message prompting the user for the piece of data, and 
 reads the data that the user enters on the keyboard, and stores that data in a variable.
 
 In pseudocode, Step 1 of the algorithm will look like this:
-
+```
 Display "Enter the number of excess minutes."
 Input excessMinutes
 Notice that the Input statement stores the value entered by the user in a variable
 named excessMinutes.
-
+```
 In Step 2 of the computer algorithm, the program calculates the overage fee by multiplying
 the number of excess minutes by 0.35. The following pseudocode statement performs
 this calculation, and stores the result in a variable named overageFee:
@@ -49,25 +49,25 @@ In Step 3 of the computer algorithm, the program displays the overage fee. Becau
 overage fee is stored in the overageFee variable, the program will display a message
 that shows the value of the overageFee variable. 
 In pseudocode we will use the following statement:
-
+```
 Display "Your current overage fee is $", overageFee
-
+```
 The Following shows the entire pseudocode program, with example output.
 
 Program:
-
+```
 1 Display "Enter the number of excess minutes."
 2 Input excessMinutes
 3 Set overageFee = excessMinutes * 0.35
 4 Display "Your current overage fee is $", overageFee
-
+```
 Program Output (with Input Shown in Bold)
-
+```
 Enter the number of excess minutes.
 100 [Enter]
 Your current overage fee is $35
 
-
+```
 ## 2 Here is the algorithm for Calculating a Percentage:
 ```
 1. Get the original price of the item.
@@ -81,33 +81,33 @@ two-step process: (1) display a message telling the user to enter the desired da
 (2) reading that data from the keyboard. We will use the following pseudocode statements
 to do this. Notice that the value entered by the user will be stored in a variable
 named originalPrice.
-
+```
 Display "Enter the item's original price."
 Input originalPrice
-
+```
 In Step 2, we calculate the amount of the discount. To do this we multiply the original
 price by 20 percent. The following statement performs this calculation and stores the
 result in the discount variable.
-
+```
 Set discount = originalPrice * 0.2
-
+```
 In Step 3, we subtract the discount from the original price. The following statement
 does this calculation and stores the result in the salePrice variable.
-
+```
 Set salePrice = originalPrice – discount
-
+```
 Last, in Step 4, we will use the following statement to display the sale price:
-
+```
 Display "The sale price is $", salePrice
-
+```
 The following shows the entire pseudocode program, with example output. 
-
+```
 1 Display "Enter the item's original price."
 2 Input originalPrice
 3 Set discount = originalPrice * 0.2
 4 Set salePrice = originalPrice – discount
 5 Display "The sale price is $", salePrice
-
+```
 ## 3 Calculating an Average
 Here is the algorithm:
 ```
@@ -121,12 +121,12 @@ In Steps 1, 2, and 3 we will prompt the user to enter the three test scores. We 
 those test scores in the variables test1, test 2, and test 3. In Step 4 we will calculate
 the average of the three test scores. We will use the following statement to perform the
 calculation and store the result in the average variable:
-
+```
 Set average = (test1 + test2 + test3) / 3
-
+```
 Last, in Step 5, we display the average.
 This shows the pseudocode program for this lab:
-
+```
 1 Display "Enter the first test score."
 2 Input test1
 3 Display "Enter the second test score."
@@ -135,9 +135,9 @@ This shows the pseudocode program for this lab:
 6 Input test3
 7 Set average = (test1 + test2 + test3) / 3
 8 Display "The average score is ", average
-
+```
 Program Output (with Input Shown in Bold)
-
+```
 Enter the first test score.
 90 [Enter]
 Enter the second test score.
@@ -145,7 +145,7 @@ Enter the second test score.
 Enter the third test score.
 100 [Enter]
 The average score is 90
-
+```
 ## 4 Converting a Math Formula to a Programming Statement
 Here is the Algorithm:
 ```
@@ -163,12 +163,12 @@ In Step 4, we calculate the present value, which is the amount of money that we 
 have to deposit. We will convert the formula previously shown to the following
 pseudocode statement. The statement stores the result of the calculation in the presentValue
 variable.
-
+```
 Set presentValue = futureValue / (1 + rate)^years
-
+```
 In Step 5, we display the value in the presentValue variable. The Following shows the
 pseudocode for this program.
-
+```
 1 Display "Enter the desired future value."
 2 Input futureValue
 3 Display "Enter the annual interest rate."
@@ -177,9 +177,9 @@ pseudocode for this program.
 6 Input years
 7 Set presentValue = futureValue / (1 + rate)^years
 8 Display "You will need to deposit $", presentValue
-
+```
 Program Output (with Input Shown in Bold)
-
+```
 Enter the desired future value.
 10000 [Enter]
 Enter the annual interest rate.
@@ -188,5 +188,5 @@ How many years will you let the money grow?
 10 [Enter]
 You need to deposit $6139
 
-
+```
 
