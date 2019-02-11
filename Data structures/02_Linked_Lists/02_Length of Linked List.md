@@ -1,7 +1,8 @@
 # Find Length of a Linked List (Iterative)
 Write a C function to count number of nodes in a given singly linked list.
 
-IMAGE
+![image](https://user-images.githubusercontent.com/47218880/52582683-636e8100-2df3-11e9-9cbb-7d6c5e9237fb.png)
+
 
 For example, the function should return 5 for linked list 1->3->1->2->1.
 
