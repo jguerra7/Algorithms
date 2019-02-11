@@ -10,7 +10,7 @@ For example if the given Linked List is 10->15->20->25 and we add an item 5 at t
 then the Linked List becomes 5->10->15->20->25. Let us call the function that adds at the front of the list is push(). 
 The push() must receive a pointer to the head pointer, because push must change the head pointer to point to the new node.
 
-IMAGE
+![image](https://user-images.githubusercontent.com/47218880/52581403-43898e00-2df0-11e9-8580-145e3c916a0a.png)
 
 ## Following are the 4 steps to add node at the front.
 ```C
@@ -36,7 +36,8 @@ Time complexity of push() is O(1) as it does constant amount of work.
 ## Add a node after a given node: (5 steps process)
 
 We are given pointer to a node, and the new node is inserted after the given node.
-IMAGE
+![image](https://user-images.githubusercontent.com/47218880/52581463-70d63c00-2df0-11e9-93c6-67f8969d1013.png)
+
 ```C
 /* Given a node prev_node, insert a new node after the given 
 prev_node */
@@ -71,7 +72,8 @@ then the Linked List becomes 5->10->15->20->25->30.
 Since a Linked List is typically represented by the head of it,
 we have to traverse the list till end and then change the next of last node to new node.
 
-IMAGE
+![image](https://user-images.githubusercontent.com/47218880/52581498-83e90c00-2df0-11e9-91fc-2d3d76276dfe.png)
+
 
 Following are the 6 steps to add node at the end.
 ```C
