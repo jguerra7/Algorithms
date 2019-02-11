@@ -105,9 +105,9 @@ For example, suppose you have been asked to write a program to calculate and dis
 gross pay for an hourly paid employee. Here are the steps that you would take:
 
 >1. Get the number of hours worked.
-2. Get the hourly pay rate.
-3. Multiply the number of hours worked by the hourly pay rate.
-4. Display the result of the calculation that was performed in Step 3.
+>2. Get the hourly pay rate.
+>3. Multiply the number of hours worked by the hourly pay rate.
+>4. Display the result of the calculation that was performed in Step 3.
 
 Of course, this algorithm isn’t ready to be executed on the computer. The steps in this
 list have to be translated into code. Programmers commonly use two tools to help them
