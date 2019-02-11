@@ -35,7 +35,7 @@ any high-level language. For example, all languages provide a way to display mes
 on the screen, read input that is typed on the keyboard, and perform mathematical calculations.
 For now, don’t worry about the details of this particular pseudocode program.
 
->NOTE: As you read the examples in this book, keep in mind that pseudocode is
+>NOTE: As you read the examples in this section, keep in mind that pseudocode is
 not an actual programming language. It is a generic way to write the statements of
 an algorithm, without worrying about syntax rules. If you mistakenly write
 pseudocode into an editor for an actual programming language, such as Python or
