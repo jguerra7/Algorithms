@@ -29,7 +29,7 @@ Index − Each location of an element in an array has a numerical index, which i
 
 ## Array Representation
 Arrays can be declared in various ways in different languages. For illustration, let's take C array declaration.
-
+![Image of array](https://www.tutorialspoint.com/data_structures_algorithms/images/array_declaration.jpg)
 
 ## Array Declaration
 Arrays can be declared in various ways in different languages. For illustration, let's take C array declaration.
