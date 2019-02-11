@@ -115,13 +115,13 @@ void displayList()
 ## FLOWCHART
 ![image](https://user-images.githubusercontent.com/47218880/52584065-c4e41f00-2df6-11e9-9265-d8dffbaf4ac3.png)
 
-createNodeList():
+### createNodeList():
 ![image](https://user-images.githubusercontent.com/47218880/52584101-d75e5880-2df6-11e9-8ae9-1767a6b7097d.png)
 
-NodeInsertatBegin():
+### NodeInsertatBegin():
 ![image](https://user-images.githubusercontent.com/47218880/52584145-ed6c1900-2df6-11e9-9d9c-02f841197e77.png)
 
-displayList():
+### displayList():
 
 ![image](https://user-images.githubusercontent.com/47218880/52584184-08d72400-2df7-11e9-8cc5-d4682b22e283.png)
 
