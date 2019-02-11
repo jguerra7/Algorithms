@@ -126,7 +126,8 @@ Step 4 − Adds data element to the stack location, where top is pointing.
 
 Step 5 − Returns success.
 ```
-IMAGE
+![image](https://user-images.githubusercontent.com/47218880/52586076-2eb2f780-2dfc-11e9-8453-339b6bb07988.png)
+
 
 If the linked list is used to implement the stack, then in step 3, we need to allocate space dynamically.
 
@@ -172,7 +173,8 @@ Step 4 − Decreases the value of top by 1.
 
 Step 5 − Returns success.
 ```
-IMAGE
+![image](https://user-images.githubusercontent.com/47218880/52586110-49856c00-2dfc-11e9-872d-45fa583083ff.png)
+
 
 ### Algorithm for Pop Operation
 A simple algorithm for Pop operation can be derived as follows −
