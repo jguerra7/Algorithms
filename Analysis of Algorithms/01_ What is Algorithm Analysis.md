@@ -107,7 +107,7 @@ def sumOfN3(n):
    return (n*(n+1))/2
 
 print(sumOfN3(10))
-
+```
 > Output: 55.0
 
 If we do the same benchmark measurement for sumOfN3, using five different values for n (10,000, 100,000, 1,000,000, 10,000,000, and 100,000,000), we get the following results:
@@ -118,7 +118,12 @@ Sum is 500000500000 required 0.00000095 seconds
 Sum is 50000005000000 required 0.00000095 seconds
 Sum is 5000000050000000 required 0.00000119 seconds
 ```
+There are two important things to notice about this output. First, the times recorded above are shorter than any of the previous examples. Second, they are very consistent no matter what the value of n. It appears that sumOfN3 is hardly impacted by the number of integers being added.
 
+But what does this benchmark really tell us? Intuitively, we can see that the iterative solutions seem to be doing more work since some program steps are being repeated. This is likely the reason it is taking longer. Also, the time required for the iterative solution seems to increase as we increase the value of n. However, there is a problem. If we ran the same function on a different computer or used a different programming language, we would likely get different results. It could take even longer to perform sumOfN3 if the computer were older.
+## SUMMARY
+````
+We need a better way to characterize these algorithms with respect to execution time. The benchmark technique computes the actual time to execute. It does not really provide us with a useful measurement, because it is dependent on a particular machine, program, time of day, compiler, and programming language. Instead, we would like to have a characterization that is independent of the program or computer being used. This measure would then be useful for judging the algorithm alone and could be used to compare algorithms across implementations.
+````
 
-```
 
