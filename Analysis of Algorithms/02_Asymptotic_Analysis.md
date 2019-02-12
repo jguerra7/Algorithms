@@ -13,3 +13,7 @@ It is used to mathematically calculate the running time of any operation inside 
 
 - Best case: It defines the input for which the algorithm takes the lowest time.
 
+## Common Asymptotic Notations
+Following is a list of some common asymptotic notations −
+![image](https://user-images.githubusercontent.com/47218880/52650990-fc170680-2eb0-11e9-8455-92465c795e32.png)
+
