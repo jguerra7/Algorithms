@@ -12,6 +12,18 @@ It is a method for solving any instance of the problem such that given a particu
 > A program, on the other hand, is an algorithm that has been encoded into some programming language. 
 There may be many programs for the same algorithm, depending on the programmer and the programming language being used.
 
+```python
+def sumOfN(n):
+   theSum = 0
+   for i in range(1,n+1):
+       theSum = theSum + i
+
+   return theSum
+
+print(sumOfN(10))
+```
+OUTPUT: 55
+
 
 
 
