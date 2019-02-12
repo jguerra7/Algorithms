@@ -1,4 +1,4 @@
-# What is Algorithm Analyis
+# What is Algorithm Analysis?
 
 It is very common for beginning computer science students to compare their programs with one another.
 You may also have noticed that it is common for computer programs to look very similar, especially the simple ones. 
@@ -128,7 +128,8 @@ The benchmark technique computes the actual time to execute.
 t does not really provide us with a useful measurement, because it is dependent on a particular machine, program, 
 time of day, compiler, and programming language. Instead, 
 we would like to have a characterization that is independent of the program or computer being used. 
-This measure would then be useful for judging the algorithm alone and could be used to compare algorithms across implementations.
+This measure would then be useful for judging the algorithm alone and could be used 
+to compare algorithms across implementations.
 ````
 
 
