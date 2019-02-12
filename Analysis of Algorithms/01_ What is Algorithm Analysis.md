@@ -123,7 +123,12 @@ There are two important things to notice about this output. First, the times rec
 But what does this benchmark really tell us? Intuitively, we can see that the iterative solutions seem to be doing more work since some program steps are being repeated. This is likely the reason it is taking longer. Also, the time required for the iterative solution seems to increase as we increase the value of n. However, there is a problem. If we ran the same function on a different computer or used a different programming language, we would likely get different results. It could take even longer to perform sumOfN3 if the computer were older.
 ## SUMMARY
 ````
-We need a better way to characterize these algorithms with respect to execution time. The benchmark technique computes the actual time to execute. It does not really provide us with a useful measurement, because it is dependent on a particular machine, program, time of day, compiler, and programming language. Instead, we would like to have a characterization that is independent of the program or computer being used. This measure would then be useful for judging the algorithm alone and could be used to compare algorithms across implementations.
+We need a better way to characterize these algorithms with respect to execution time. 
+The benchmark technique computes the actual time to execute. 
+t does not really provide us with a useful measurement, because it is dependent on a particular machine, program, 
+time of day, compiler, and programming language. Instead, 
+we would like to have a characterization that is independent of the program or computer being used. 
+This measure would then be useful for judging the algorithm alone and could be used to compare algorithms across implementations.
 ````
 
 
