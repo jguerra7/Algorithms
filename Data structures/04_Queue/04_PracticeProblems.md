@@ -1,6 +1,6 @@
 # WRITING "QUEUE" code:
 
-## 1) Write a program to implement a linear queue.
+## 1) Write a program to implement a queue.
 
 ### Sample Output:
 ```
@@ -47,7 +47,7 @@ Queue is :
 4.Quit
 Enter your choice : 4
 ```
-## 2) Write a program to implement a linked queue.
+## 2) Write a program to implement a queue.
 
 ### Sample Output:
 ```
