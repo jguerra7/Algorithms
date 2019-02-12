@@ -3,6 +3,7 @@
 ## 1) Write a program to implement a linear queue.
 
 ### Sample Output:
+```
 1.Insert element to queue
 2.Delete element from queue
 3.Display all elements of queue
