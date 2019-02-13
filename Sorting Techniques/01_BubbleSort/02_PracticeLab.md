@@ -10,4 +10,5 @@ the proper element is automatically placed at last after first step.
 Similarly, in third step, last and second last and second last and third last elements are not compared and so on.
 
 A figure is worth a thousand words so, acknowledge this figure for better understanding of bubble sort.
+
 ![image](https://user-images.githubusercontent.com/47218880/52729449-d35d4280-2f7e-11e9-9bbc-bcfbca68af4f.png)
