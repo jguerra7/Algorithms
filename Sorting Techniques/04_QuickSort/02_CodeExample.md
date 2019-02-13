@@ -33,7 +33,8 @@ end function
 
 ### Example C code for Quick sort:
 
-Example output:
+> Example output:
+
 ![image](https://user-images.githubusercontent.com/47218880/52735369-1cb48e80-2f8d-11e9-8002-aa7a1d9bb865.png)
 
 
