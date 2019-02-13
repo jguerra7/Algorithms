@@ -19,6 +19,20 @@ Max-Heap − Where the value of the root node is greater than or equal to either
 
 ![image](https://user-images.githubusercontent.com/47218880/52723379-04d01100-2f73-11e9-8022-b2c806bb7a0e.png)
 
+Both trees are constructed using the same input and order of arrival.
+
+## Max Heap Construction Algorithm
+We shall use the same example to demonstrate how a Max Heap is created. The procedure to create Min Heap is similar but we go for min values instead of max values.
+
+We are going to derive an algorithm for max heap by inserting one element at a time. At any point of time, heap must maintain its property. While insertion, we also assume that we are inserting a node in an already heapified tree.
+```
+Step 1 − Create a new node at the end of heap.
+Step 2 − Assign new value to the node.
+Step 3 − Compare the value of this child node with its parent.
+Step 4 − If value of parent is less than child, then swap them.
+Step 5 − Repeat step 3 & 4 until Heap property holds.
+```
+Note − In Min Heap construction algorithm, we expect the value of the parent node to be less than that of the child node.
 
 A binary heap is a complete binary tree which satisfies the heap ordering property. The ordering can be one of two types:
 
