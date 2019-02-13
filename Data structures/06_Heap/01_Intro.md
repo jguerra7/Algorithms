@@ -18,3 +18,15 @@ Min-Heap − Where the value of the root node is less than or equal to either of
 Max-Heap − Where the value of the root node is greater than or equal to either of its children.
 
 ![image](https://user-images.githubusercontent.com/47218880/52723379-04d01100-2f73-11e9-8022-b2c806bb7a0e.png)
+
+
+A binary heap is a complete binary tree which satisfies the heap ordering property. The ordering can be one of two types:
+
+the min-heap property: the value of each node is greater than or equal to the value of its parent, with the minimum-value element at the root.
+the max-heap property: the value of each node is less than or equal to the value of its parent, with the maximum-value element at the root.
+Throughout this chapter the word "heap" will always refer to a min-heap.
+![image](https://user-images.githubusercontent.com/47218880/52723788-c7b84e80-2f73-11e9-8826-6b746c7776ef.png)
+
+
+## Applications:
+A heap has many applications, including the most efficient implementation of priority queues, which are useful in many applications. In particular, heaps are crucial in several efficient graph algorithms.
